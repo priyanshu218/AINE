@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #fafafa;
+	overflow-x: hidden;
+	padding-top: 20px;
+	box-shadow: 4px 0px 30px #dadbdf;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #7f8f9e;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #1d2e3e;
+}
+
+.first,
+.second,
+.third,
+.forth {
+	text-align: center;
+}
+
+.first {
+	border-bottom: 5px solid #f3f3f5;
+}
+
+.second,
+.third,
+.forth {
+	padding: 20px 0px 20px 0px;
+}
+
+.second:hover,
+.third:hover,
+.forth:hover {
+	background-color: #d1e1ee;
+	border-left: 5px solid #3066bc;
+}
+
+.fas,
+.far {
+	font-size: 25px;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.video {
+	margin-left: 250px;
+	padding: 0px 10px;
+	margin-top: 110px;
+	height: 100%;
+}
+
+.content a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #7f8f9e;
+	display: block;
+	padding-top: 50px;
+}
+
+.content a:hover {
+	color: #1d2e3e;
+}
+
+.content .fas {
+	font-size: 15px;
+	padding-left: 10px;
+	margin-bottom: -5px;
+}
+
+.content {
+	background-color: #f4f5f7;
+	height: 100%;
+}
+
+.form-control {
+	border: 1px solid transparent;
+	padding: 12px 20px;
+	border-radius: 15px;
+	width: 90%;
+	color: #555555;
+	font-weight: bold;
+}
+
+.form {
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.form p {
+	text-align: center;
+	color: #0f0f0d;
+	padding-right: 50px;
+	font-size: 20px;
+}
+
+.drag-area {
+	border: 1px solid transparent;
+	width: 20%;
+	height: 200px;
+	border-radius: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #fff;
+}
+
+.drag-area button {
+	padding: 10px 25px;
+	font-size: 15px;
+	font-weight: 900;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #202020;
+	cursor: pointer;
+}
+
+.drag-area img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 0px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
